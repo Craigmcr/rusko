@@ -1,0 +1,307 @@
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <script src="jquery.min.js"></script>
+        <script src="jquery-ui/jquery-ui.js"></script>
+
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+        <style type="text/css">
+
+        body {
+            margin-top:80px;
+            font-family: 'Open Sans Condensed',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+            z-index:0;
+        }
+
+        nav {
+            height:70px;
+            border:none;
+            border-bottom:3px ridge #CCCCCC;
+        }
+
+        #altMenu {
+            position:fixed;
+            top:828px;
+            height:70px;
+            background-color:#FFFFFF;
+            border:none;
+            border-top:3px ridge #BBBBBB;
+            z-index:1;
+        }
+
+        #sideNavMenu {
+            display:none;
+            position:fixed;
+            top:5px;
+            background-color:white;
+            width:35%;
+            height:100%;
+            border:none;
+            border-right:2px solid grey;
+            z-index:2;
+        }
+
+        .altBtns {
+            width:33%;
+            float:left;
+        }
+
+        .imgs {
+            display:block;
+            margin-left:50px;
+            width:30px
+        }
+
+        #brandMenu {
+            margin-left:15px;
+            color:#ea5252;
+        }
+
+        #sideNavMenu {
+
+        }
+        #hiddenheadCover {
+            display:none;
+        }
+
+        #mainCover {
+            position:relative;
+            top:-10px;
+            display:block;
+            margin:0 auto;
+            width: 100%;
+        }
+
+        #headline {
+            margin-top:15px;
+            text-align:center;
+            color:#ea5252;
+        }
+
+        p {
+            margin-top:15px;
+            font-family:helvetica;
+            text-align: center;
+        }
+
+        #w-aBtn {
+            background-color:#ea5252;
+            display:block;
+            margin:0 auto;
+            width:30%;
+            color:white;
+        }
+
+        #grid1 {
+            grid-template-columns: 1fr;
+            position:relative;
+            top:50px;
+            margin-left:50px;
+        }
+
+        a {
+            color:#ea5252;
+
+        }
+
+        @media (min-width: 675px) {
+
+            body {
+                margin-top:120px;
+            }
+
+            #altMenu {
+                display:none;
+            }
+
+            #hiddenheadCover {
+                display:block;
+            }
+
+            #headCover {
+                display:none;
+            }
+
+            #mainCover {
+                position:relative;
+                top:80px;
+                margin:0 auto;
+                width:75%;
+            }
+
+            #headline {
+                font-size:38pt;
+                color:#ea5252;
+            }
+
+            p {
+                margin-top:15px;
+                font-family:helvetica;
+                text-align: center;
+            }
+
+            #w-aBtn {
+
+                background-color:#ea5252;
+                display:block;
+                margin:0 auto;
+                width:30%;
+                color:white;
+            }
+
+            #margin1 {
+                position:relative;
+                top:200px;
+            }
+
+            #grid1 {
+                grid-template-columns: 1fr 1fr;
+                position:relative;
+                top:250px;
+                margin-left:80px;
+            }
+
+            a {
+                color:#ea5252;
+
+            }
+
+        }
+
+        @media (min-width: 992px) {
+
+            #mainCover {
+                margin:0 auto;
+                width:80%;
+            }
+        }
+
+        </style>
+
+        <title>Gazebo Funk Book Club</title>
+
+        <link href="http://fonts.googleapis.com/css?family=Open%20Sans%20Condensed:700" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+            <button class="btn" id="menuBtn"><img src="collapse.png" width="15px" height="15px"></button>
+
+            <a class="navbar-brand" href="#"><span id="brandMenu">Gazebo Funk Book & Reading Club</span></a>
+
+        </nav>
+
+        <div class="container-fluid" id="altMenu">
+                <div class="altBtns">
+                    <button class="btn"><img src="Whatsapp.jpg" class="imgs"></button>
+                </div>
+                <div class="altBtns">
+                    <button class="btn"><img src="location.png" class="imgs"></button>
+                </div>
+                <div class="altBtns">
+                    <button class="btn"><img src="call.png" class="imgs"></button>
+                </div>
+        </div>
+
+        <div id="sideNavMenu"></div>
+
+        <div style="" class="container" id="hiddenheadCover">
+
+            <h2 class="" id="headline">Gazebo Funk Book & Reading Club</h2>
+
+                <p>Book Shop in Mbombela<br>Opening @ 09:00 Tomorrow</p>
+
+                <button class="btn" id="w-aBtn">W/A 065 819 5894</button>
+
+        </div>
+
+        <img src="mainCover.jpg" id="mainCover">
+
+        <div class="container-md" id="headCover">
+
+            <h2 class="" id="headline">Gazebo Funk Book & Reading Club</h2>
+
+                <p>Book Shop in Mbombela<br>Opening @ 09:00 Tomorrow</p>
+
+                <button class="btn" id="w-aBtn">W/A 065 819 5894</button>
+
+        </div>
+
+        <div style="margin:0 auto;width:80px;" id="margin1">
+            <hr class="my-4 bg-dark">
+            <h6 align="center">UPDATES</h6>
+        </div>
+
+        <div class="container-sm" id="grid1">
+            <div class="container row">
+                <div class="col-sm-6">
+                    <img src="1.jpg" width="100%">
+                    <a href="#">Posted on 16-Apr-2020</a><br>
+                    <span>#Lockdown2020 #RespectLifeMzansi</span>
+                    <br><br>
+                </div>
+                <div class="col-sm-6">
+                    <img src="2.jpg" width="100%">
+                    <a href="#">Posted on 16-Apr-2020</a><br>
+                    <span>Late night reading. Spoilt with time.<br>#ReadToLead #LetSARead<br>#LockdownSA #21DayStoryReadingChallenge</span>
+                    <br><br>
+                </div>
+            </div>
+            <div class="container row">
+                <div class="col-sm-6">
+                    <img src="3.jpg" width="100%">
+                    <a href="#">Posted on 16-Apr-2020</a><br>
+                    <span>#Lockdown2020 #RespectLifeMzansi</span>
+                    <br><br>
+                </div>
+                <div class="col-sm-6">
+                    <img src="4.jpg" width="100%">
+                    <a href="#">Posted on 20-Mar-2020</a><br>
+                    <span>Greetings all. This is to inform you that our braai is postponed. Its best for now. Thank you for understanding. Be blessed.</span>
+                    <br><br>
+                </div>
+            </div>
+            <div class="container row">
+                <div class="col-sm-6">
+                    <img src="5.jpg" width="100%">
+                    <a href="#">Posted on 20-Mar-2020</a><br>
+                    <span>Greetings all. This is to inform you that our braai is postponed. Its best for now. Thank you for understanding. Be blessed.</span>
+                    <br><br>
+                </div>
+                <div class="col-sm-6">
+                    <img src="6.jpg" width="100%">
+                    <a href="#">Posted on 20-Mar-2020</a><br>
+                    <span>Greetings all. This is to inform you that our braai is postponed. Its best for now. Thank you for understanding. Be blessed.</span>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function(){
+
+                $("#menuBtn").click(function(){
+                    $("#sideNavMenu").fadeToggle(600);
+                });
+
+            })
+
+        </script>
+
+    </body>
+
+</html>
